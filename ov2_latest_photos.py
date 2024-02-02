@@ -119,4 +119,5 @@ for file, tracking_id in tzip(df.file, df.tracking_id):
 print(f'Done, check the results at ABC {results_folder}')
 input('Enter to Exit [Enter]:')
 
-# pyinstaller --clean --collect-all pyfiglet --onefile ov2_latest_photos.py
+#macOS: pyinstaller --clean --collect-all pyfiglet --onefile ov2_latest_photos.py
+#Windows: pyinstaller --clean --collect-all pyfiglet --onefile ov2_latest_photos.py
